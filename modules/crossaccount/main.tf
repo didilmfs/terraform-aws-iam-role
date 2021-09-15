@@ -10,7 +10,7 @@ data "aws_iam_policy_document" "doc" {
 }
 
 module "aws-resource-naming_iam_role" {
-  source        = "git::https://github.com/traveloka/terraform-aws-resource-naming.git?ref=v0.19.1"
+  source        = "git::https://github.com/traveloka/terraform-aws-resource-naming.git?ref=v0.20.0"
   name_prefix   = var.role_name
   resource_type = "iam_role"
 }

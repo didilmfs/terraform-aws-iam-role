@@ -5,7 +5,7 @@ locals {
 }
 
 module "random" {
-  source = "github.com/traveloka/terraform-aws-resource-naming.git?ref=v0.19.1"
+  source = "github.com/traveloka/terraform-aws-resource-naming.git?ref=v0.20.0"
 
   name_prefix   = local.name_prefix
   resource_type = "iam_role"

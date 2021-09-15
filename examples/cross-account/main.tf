@@ -15,7 +15,7 @@ module "this" {
 
   trusted_role_arns = [
     # In actual use case, you have to replace this line(s) below with correct ARN.
-    "arn:aws:iam::123456789012:role/instance-role/InstanceRole_tsttest-app-a5a88dc27381fa3a",
+    "arn:aws:sts::460124681500:assumed-role/CloudInfraIntern/t-fadhilah@traveloka.com",
   ]
 
   product_domain = "nvm"

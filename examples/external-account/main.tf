@@ -13,8 +13,8 @@ module "this" {
   role_force_detach_policies = "true"
   role_max_session_duration  = "43200"
 
-  account_id  = "112233445566"
-  external_id = "ABCDEFGHIJ01"
+  account_id  = "arn:aws:sts::460124681500:assumed-role/CloudInfraIntern/t-fadhilah@traveloka.com" # Replace this value 
+  external_id = "arn:aws:sts::460124681500:assumed-role/CloudInfraIntern/t-fadhilah@traveloka.com" # Replace this value
 
   product_domain = "tst"
   environment    = "production"
