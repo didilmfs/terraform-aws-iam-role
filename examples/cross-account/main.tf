@@ -4,7 +4,7 @@ provider "aws" {
 
 module "this" {
   # In actual use case, you have to replace the following line (line 8) with:
-  # source = "github.com/traveloka/terraform-aws-iam-role.git//modules/user?ref=v0.3.0"
+  # source = "github.com/traveloka/terraform-aws-iam-role.git//modules/crossaccount?ref=v2.0.2"
   source = "../../modules/crossaccount"
 
   role_name                  = "SqsSendMessageToNvmawsmService"
@@ -15,7 +15,7 @@ module "this" {
 
   trusted_role_arns = [
     # In actual use case, you have to replace this line(s) below with correct ARN.
-    "arn:aws:sts::460124681500:assumed-role/CloudInfraIntern/t-fadhilah@traveloka.com",
+    "123321",
   ]
 
   product_domain = "nvm"
