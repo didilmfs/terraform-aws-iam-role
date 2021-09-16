@@ -14,7 +14,7 @@ module "this" {
   role_max_session_duration  = 43200
 
   trusted_users = [
-    "arn:aws:iam::715824975366:role/SuperAdmin", # In actual use case, you have to replace this line with correct IAM User ARN.
+    "123321", # In actual use case, you have to replace this line with correct IAM User ARN.
   ]
 
   mfa_required   = true # Set this value to false only when needed
