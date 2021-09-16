@@ -35,7 +35,6 @@ Currently supported type of Roles are:
    * [License](#license)
 
 
-
 ## Usage
 This module will only create an IAM Role and its Trust Relationships policy document. You need to attach your own Permission policy document outside the module.
 
