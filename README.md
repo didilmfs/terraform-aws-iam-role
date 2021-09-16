@@ -18,13 +18,22 @@ Currently supported type of Roles are:
 
 ## Table of Content
 
-- [Prerequisites](#Prerequisites)
-- [Quick Start](#Quick-Start)
-- [Dependencies](#Dependencies)
-- [Contributing](#Contributing)
-- [Contributor](#Contributor)
-- [License](#License)
-- [Acknowledgments](#Acknowledgments)
+* [terraform-aws-iam-role](#terraform-aws-iam-role)
+   * [Table of Content](#table-of-content)
+   * [Usage](#usage)
+   * [Modules](#modules)
+   * [Examples](#examples)
+   * [Tests](#tests)
+   * [Terraform Version](#terraform-version)
+   * [Authors](#authors)
+   * [Requirements](#requirements)
+   * [Providers](#providers)
+   * [Modules](#modules-1)
+   * [Resources](#resources)
+   * [Inputs](#inputs)
+   * [Outputs](#outputs)
+   * [License](#license)
+
 
 
 ## Usage
