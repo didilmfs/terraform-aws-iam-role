@@ -1,5 +1,13 @@
-terraform-aws-iam-role
-======================
+# terraform-aws-iam-role
+
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.12.0,<0.13.0-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Release](https://img.shields.io/github/release/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/commits/master)
+[![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/pulls)
+[![License](https://img.shields.io/github/license/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/blob/master/LICENSE)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
+
 Terraform module to create AWS IAM Role. 
 Currently supported type of Roles are:
 1. Role for AWS Service
@@ -8,9 +16,18 @@ Currently supported type of Roles are:
 4. Role for Instance Profile
 5. Role for Lambda
 
+## Table of Content
 
-Usage
------
+- [Prerequisites](#Prerequisites)
+- [Quick Start](#Quick-Start)
+- [Dependencies](#Dependencies)
+- [Contributing](#Contributing)
+- [Contributor](#Contributor)
+- [License](#License)
+- [Acknowledgments](#Acknowledgments)
+
+
+## Usage
 This module will only create an IAM Role and its Trust Relationships policy document. You need to attach your own Permission policy document outside the module.
 
 To use a particular type of supported role, you can go into `modules` folder and read `README.md` at each subfolder for more detailed information.
@@ -18,8 +35,7 @@ To use a particular type of supported role, you can go into `modules` folder and
 To understand better on how to implement this module, you can go into `examples` folder and try them.
 
 
-Modules
---------
+## Modules
 * [AWS Service](https://github.com/traveloka/terraform-aws-iam-role/tree/master/modules/service)
 * [IAM User](https://github.com/traveloka/terraform-aws-iam-role/tree/master/modules/user)
 * [External AWS Account](https://github.com/traveloka/terraform-aws-iam-role/tree/master/modules/external)
@@ -27,8 +43,7 @@ Modules
 * [Lambda](https://github.com/traveloka/terraform-aws-iam-role/tree/master/modules/lambda)
 
 
-Examples
---------
+## Examples
 * [Service Role for Config](https://github.com/traveloka/terraform-aws-iam-role/tree/master/examples/aws-service-config)
 * [IAM Role for User](https://github.com/traveloka/terraform-aws-iam-role/tree/master/examples/user-iam)
 * [IAM Role for 3rd Party AWS Account](https://github.com/traveloka/terraform-aws-iam-role/tree/master/examples/external-account)
@@ -36,8 +51,7 @@ Examples
 * [IAM Role for Lambda](https://github.com/traveloka/terraform-aws-iam-role/tree/master/examples/lambda-role)
 
 
-Tests
------
+## Tests
 To run the test:
 1. Install Ruby with version specified in the [Gemfile](https://github.com/traveloka/terraform-aws-iam-role/tree/master/Gemfile).
 2. Install bundler: `gem install bundler`
@@ -45,14 +59,12 @@ To run the test:
 4. Run test from the root of the repository: `bundle exec kitchen test`
 
 
-Terraform Version
------------------
+## Terraform Version
 This module was created using Terraform 0.11.4. 
 The latest stable version of Terraform which this module tested working is Terraform 0.12.31 on 2021/09/15
 
 
-Authors
--------
+## Authors
 * [Rafi Kurnia Putra](https://github.com/rafikurnia)
 
 
@@ -109,6 +121,5 @@ No modules.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 
-License
--------
+## License
 Apache 2 Licensed. See LICENSE for full details.
