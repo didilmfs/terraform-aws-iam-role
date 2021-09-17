@@ -13,8 +13,8 @@ module "this" {
   role_force_detach_policies = "true"
   role_max_session_duration  = "43200"
 
-  account_id  = "123321" # Replace this value 
-  external_id = "456654" # Replace this value
+  account_id  = "112233445566"
+  external_id = "ABCDEFGHIJ01"
 
   product_domain = "tst"
   environment    = "production"
