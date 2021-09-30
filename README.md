@@ -1,6 +1,6 @@
 # terraform-aws-iam-role
 
-[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.13.0,<0.13.7-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=1.0.0,<=1.0.8-blue.svg)](https://releases.hashicorp.com/terraform/)
 [![Release](https://img.shields.io/github/release/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/issues)
@@ -25,13 +25,13 @@ Currently supported type of Roles are:
    * [Examples](#examples)
    * [Tests](#tests)
    * [Terraform Version](#terraform-version)
-   * [Authors](#authors)
    * [Requirements](#requirements)
    * [Providers](#providers)
    * [Modules](#modules-1)
    * [Resources](#resources)
    * [Inputs](#inputs)
    * [Outputs](#outputs)
+   * [Authors](#authors)
    * [License](#license)
 
 
@@ -69,10 +69,7 @@ To run the test:
 
 ## Terraform Version
 This module was created using Terraform 0.11.4. 
-The latest stable version of Terraform which this module tested working is Terraform 0.13.7 on 2021/09/15
-
-## Authors
-* [Rafi Kurnia Putra](https://github.com/rafikurnia)
+The latest stable version of Terraform which this module tested working is Terraform 1.0.8 on 30/09/2021
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -129,7 +126,9 @@ No modules.
 | <a name="output_role_unique_id"></a> [role\_unique\_id](#output\_role\_unique\_id) | The stable and unique string identifying the role. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
+## Authors
+* [Rafi Kurnia Putra](https://github.com/rafikurnia)
 
-License
--------
+
+## License
 Apache 2 Licensed. See LICENSE for full details.

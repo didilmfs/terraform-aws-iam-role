@@ -1,7 +1,3 @@
-provider "null" {
-  version = ">= 1.0.0, < 3.0.0"
-}
-
 # Trust relationships policy document
 data "aws_iam_policy_document" "doc" {
   statement {

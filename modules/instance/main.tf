@@ -1,7 +1,3 @@
-provider "random" {
-  version = ">= 1.2.0, < 3.0.0"
-}
-
 # Contains local values that are used to increase DRYness of the code.
 locals {
   # max bytes of random id to use as unique suffix. 16 hex chars, each byte takes 2 hex chars
