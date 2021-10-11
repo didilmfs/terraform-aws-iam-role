@@ -1,6 +1,6 @@
 # terraform-aws-iam-role
 
-[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=1.0.0,<=1.0.8-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.13.0,<=1.0.8-blue.svg)](https://releases.hashicorp.com/terraform/)
 [![Release](https://img.shields.io/github/release/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-iam-role.svg)](https://github.com/traveloka/terraform-aws-iam-role/issues)
